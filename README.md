@@ -45,7 +45,7 @@ Example using `stream.Transform`:
 
 ```js
 fs.createReadStream('path/to/archive.zip')
-  .pipe(unzipper.Parse())
+  .pipe(unzip.Parse())
   .pipe(stream.Transform({
     objectMode: true,
     transform: function(entry,e,cb) {
