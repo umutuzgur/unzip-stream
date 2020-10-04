@@ -1,2 +1,4 @@
 /.idea
 /node_modules
+/testData-golang
+/testData-php
